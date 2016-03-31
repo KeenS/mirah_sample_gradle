@@ -1,0 +1,5 @@
+```
+gradle run
+```
+
+LICENCE BSD

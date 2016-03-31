@@ -1,0 +1,16 @@
+plugins {
+  id "org.mirah.lang" version "0.9"
+}
+
+repositories {
+  mavenCentral()
+  mavenLocal()
+}  
+
+
+apply plugin: "application"
+mainClassName = "Main"
+
+dependencies {
+  compile 'org.mirah:mirah:0.1.4'
+}
